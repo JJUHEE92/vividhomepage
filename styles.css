@@ -792,6 +792,23 @@ body {
         min-width: 0;
         word-break: break-all;
     }
+    .brand-history-desc,
+    .brand-history-desc.full {
+        color: #222;
+        font-size: 1rem;
+        line-height: 1.7;
+        background: transparent;
+        overflow: visible;
+        display: block;
+        -webkit-line-clamp: unset;
+        white-space: pre-line;
+    }
+    .brand-history-desc.short {
+        display: -webkit-box;
+        -webkit-line-clamp: 6;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
     .brand-contact {
         font-size: 1rem;
         padding: 8px 6px;
