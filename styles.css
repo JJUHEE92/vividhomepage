@@ -832,6 +832,14 @@ body {
     .footer-copyright {
         font-size: 0.85rem;
     }
+    .brand-history-desc.full {
+        display: block !important;
+        -webkit-line-clamp: unset !important;
+        overflow: visible !important;
+        white-space: pre-line !important;
+        max-height: none !important;
+        height: auto !important;
+    }
 } 
 
 .reserve-btn {
